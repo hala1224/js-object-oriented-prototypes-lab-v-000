@@ -4,23 +4,23 @@ function BoardMember(name, homeState, training){
   this.training = training;
 }
 
-  BoardMember.prorotype.veto = function(){
+  BoardMember.prototype.veto = function(){
     return 'No, I must disagree';
   };
   
-  BoardMember.prorotype.approve = function(){
+  BoardMember.prototype.approve = function(){
     return 'You can do that!';
   };
   
-  BoardMember.prorotype.doCharity = function(){
+  BoardMember.prototype.doCharity = function(){
     return "I like to help people.";
   };
 
-  BoardMember.prorotype.releasePressStatement = function(){
+  BoardMember.prototype.releasePressStatement = function(){
     return "You will see great things from Scuber.";
   };
 
-  BoardMember.prorotype.sayHi = function(){
+  BoardMember.prototype.sayHi = function(){
     return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`;
     
   };
